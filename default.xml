@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="https://github.com"
+           />
+  <default revision="refs/heads/master"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="redmine" name="redmine/redmine" />
+  <project path="redmine/plugins/redmine_dmsf" name="danmunn/redmine_dmsf" />
+</manifest>
